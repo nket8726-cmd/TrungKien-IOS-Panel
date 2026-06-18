@@ -1,1 +1,3 @@
-function setColor(c){document.documentElement.style.setProperty('--c',c);}
+function showMsg(){
+alert("Áp dụng thành công!");
+}
