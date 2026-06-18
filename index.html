@@ -2,52 +2,78 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TrungKien IOS Panel VIP</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TrungKien IOS Panel V1</title>
+<style>
+body{margin:0;background:#050b14;color:#fff;font-family:Arial,sans-serif}
+.header{padding:15px;text-align:center;font-size:32px;font-weight:bold;color:#eaf2ff;border-bottom:2px solid #0a5cff}
+.wrap{display:flex;gap:20px;padding:20px}
+.left{width:280px}
+.card,.box{background:#0a101d;border:1px solid #1547ff;border-radius:12px;box-shadow:0 0 10px #1547ff55}
+.card{padding:15px;text-align:center}
+.card img{width:100%;border-radius:10px}
+.name{font-size:24px;font-weight:bold;margin-top:10px}
+.menu div,.box{padding:15px;margin-top:12px}
+.right{flex:1}
+.colors{display:flex;gap:12px;margin-top:10px}
+.c{width:40px;height:40px;border-radius:50%;cursor:pointer}
+.blue{background:#1560ff}.green{background:#19c85b}.purple{background:#8a2be2}.orange{background:#ff9800}.red{background:#f44336}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin-top:20px}
+.box h3{margin:0;color:#2f8cff}
+.info{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:20px}
+</style>
 </head>
 <body>
+<div class="header">TrungKien IOS Panel V1</div>
 
+<div class="wrap">
+<div class="left">
 <div class="card">
-    <h1> TrungKien IOS Panel VIP</h1>
-    <p>Nguyễn Hoàng Trung Kiên</p>
-    <p>Zalo: 0824.804.139</p>
-
-    <div class="item">
-        <span>🚀 FPS Boost</span>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider"></span>
-        </label>
-    </div>
-
-    <div class="item">
-        <span>⚡ Giảm Delay</span>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider"></span>
-        </label>
-    </div>
-
-    <div class="item">
-        <span>🎯 Kéo Tâm</span>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider"></span>
-        </label>
-    </div>
-
-    <div class="item">
-        <span>🔥 Tăng Cảm Ứng</span>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider"></span>
-        </label>
-    </div>
-
-    <button onclick="showMsg()">Áp Dụng</button>
+<img src="https://picsum.photos/300/400" alt="avatar">
+<div class="name">TRUNGKIEN<br>IOS PANEL V1</div>
 </div>
 
-<script src="script.js"></script>
+<div class="menu">
+<div class="box">🏠 Trang Chủ</div>
+<div class="box">👤 Thông Tin Admin</div>
+<div class="box">⚙️ Cài Đặt Chung</div>
+<div class="box">🛡️ Bảo Mật</div>
+<div class="box">🚪 Đăng Xuất</div>
+</div>
+</div>
+
+<div class="right">
+<div class="box">
+<h3>CHUYỂN ĐỔI MÀU GIAO DIỆN</h3>
+<div class="colors">
+<div class="c blue"></div>
+<div class="c green"></div>
+<div class="c purple"></div>
+<div class="c orange"></div>
+<div class="c red"></div>
+</div>
+</div>
+
+<div class="grid">
+<div class="box"><h3>Hỗ Trợ Kéo Tâm</h3></div>
+<div class="box"><h3>Thông Số Độ Nhạy</h3></div>
+<div class="box"><h3>Tối Ưu Thiết Bị</h3></div>
+<div class="box"><h3>Tối Ưu WiFi</h3></div>
+<div class="box"><h3>Mẹo Headshot</h3></div>
+<div class="box"><h3>Công Cụ Hỗ Trợ</h3></div>
+<div class="box"><h3>Kiểm Tra Ping</h3></div>
+<div class="box"><h3>Thống Kê Trận</h3></div>
+<div class="box"><h3>Sao Lưu Cấu Hình</h3></div>
+<div class="box"><h3>Khôi Phục Cấu Hình</h3></div>
+</div>
+
+<div class="info">
+<div class="box">Phiên bản: 1.0.0</div>
+<div class="box">Cập nhật: 25/05/2024</div>
+<div class="box">Thiết bị: iPhone</div>
+<div class="box">Trạng thái: Hoạt động</div>
+</div>
+</div>
+</div>
 </body>
 </html>
