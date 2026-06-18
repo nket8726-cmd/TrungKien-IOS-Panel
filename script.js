@@ -1,0 +1,1 @@
+function setColor(c){document.documentElement.style.setProperty('--c',c);}
